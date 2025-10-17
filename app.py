@@ -240,7 +240,8 @@ def build_model(_df):
 df = load_and_process_data(FILE_PATH)
 vectorizer, tfidf_matrix = build_model(df)
 
-st.success("App safaltapoorvak load ho gaya hai! Ab aap recommender ka istemal kar sakte hain.")
+# st.success("App safaltapoorvak load ho gaya hai! Ab aap recommender ka istemal kar sakte hain.")
+st.success("Welcome To The Best AI Fitness Recommendation App.")
 
 # --- UI Design ---
 with st.sidebar:
